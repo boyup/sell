@@ -11,6 +11,8 @@ public class BuyerProductController {
     @GetMapping("/list")
     public ResultVO list(){
         ResultVO resultVO = new ResultVO();
+        resultVO.setCode(0);
+        resultVO.setMessage("success");
         return resultVO;
     }
 }

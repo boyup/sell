@@ -17,5 +17,4 @@ public class ResultVO<T> {
     /** 具体数据 */
     private T data;
 
-
 }
