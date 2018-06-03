@@ -19,6 +19,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @Author jason
+ */
+
 @RestController
 @RequestMapping("/buyer/product")
 public class BuyerProductController {
@@ -34,7 +38,7 @@ public class BuyerProductController {
         List<ProductInfo> productInfolist = productService.findUpAll();
 
         // 2. 查询类目（一次性查询）
-//        List<Integer> categoryTypeList = new ArrayList<>();
+        // List<Integer> categoryTypeList = new ArrayList<>();
         // 传统方法
         /*for (ProductInfo productInfo : productInfolist){
             categoryTypeList.add(productInfo.getCategoryType());
